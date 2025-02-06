@@ -2,7 +2,7 @@ body {
     font: 20px "Gill Sans", Verdana, sans-serif;
     line-height: 1.8;
     color: black;
-    background-color: #708090;
+    background-color: #white;
     padding-top: 0px !important;
   }
 
@@ -10,7 +10,7 @@ body {
   padding: 2% 10%;;
 }
 
-p {font-size: 16px; color: blue}
+p {font-size: 16px; color: black}
 .margin {margin-bottom: 30px;}
 
 a {
