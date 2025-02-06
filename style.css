@@ -1,8 +1,8 @@
 body {
     font: 20px "Gill Sans", Verdana, sans-serif;
     line-height: 1.8;
-    color: #374f2f;
-    background-color: #374f2f;
+    color: black;
+    background-color: #708090;
     padding-top: 0px !important;
   }
 
@@ -10,7 +10,7 @@ body {
   padding: 2% 10%;;
 }
 
-p {font-size: 16px;}
+p {font-size: 16px; color: blue}
 .margin {margin-bottom: 30px;}
 
 a {
@@ -23,7 +23,7 @@ a {
 }
 
 nav {
-  background-color: #374f2f;
+  background-color: #708090;
   color: #374f2f;
   padding: 50px 0px;
 }
