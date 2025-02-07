@@ -13,6 +13,10 @@ body {
 p {font-size: 16px; color: black}
 .margin {margin-bottom: 30px;}
 
+a:hover{
+  color: white;
+}
+
 a {
   color: #000000;
 }
