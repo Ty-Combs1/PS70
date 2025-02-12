@@ -41,15 +41,15 @@ nav {
 .nav-title{
   margin-left: 15px;
   margin-right: 15px;
-  color: #a99a86;
+  color: #000000;
 }
 
 .nav-link {
-  border: 3px outset #a99a86;
+  border: 3px outset #708099;
   border-radius: 20px;
   padding: 10px 30px;
-  background-color: #a3a3a3;
-  color: #EEE7E8;
+  background-color: #708099;
+  color: #708099;
   transition: 0.3s;
 }
 
@@ -57,7 +57,7 @@ nav {
   border: 3px outset #FFFFFF;
   border-radius: 20px;
   padding: 10px 30px;
-  background-color: #a3a3a3;
+  background-color: #708099;
   transition: 0.3s;
 }
 
