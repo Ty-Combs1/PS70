@@ -144,13 +144,12 @@
 
       <h3>Inspiration</h3>
       <p>
-        The inspiration for this project came from my personal interest in vinyl record collecting and the challenges of organizing a growing collection. I wanted to create a system that would not only store records efficiently but also help track and locate specific albums quickly.
+        The inspiration for this project came from Tolu Ademola's Fall 2024 project and my personal interest in vinyl records. I wanted to create a system that would not only store records efficiently but also help track and locate specific albums quickly.
       </p>
 
       <h3>How It Works</h3>
       <p>
-        The Smart Record Filing System uses RFID technology to tag and identify individual records. An Arduino-based controller manages the system, with a custom interface for searching and locating specific albums in the collection. LED indicators help visually locate the desired record on the shelf.
-      </p>
+        The Smart Record Filing System uses RFID tags and identify individual records. When placed on the turntable, the RFID reader located underneath sends the tag information to a microcontroller which manages the LED light system. The code recognizes multiple recurring signals as the music plays and switches to audio-visual. Once stopped it reverts back to storage mode.
       
       <div class="embed-responsive" style="margin: 30px 0;">
         <iframe src="https://app.arduino.cc/sketches/0f32f8e9-a113-4481-b624-84c128d1481b?nav=GenAI&view-mode=embed" 
@@ -161,7 +160,7 @@
 
       <h3>Internals and Parts</h3>
       <p>
-        The internal components include an Arduino microcontroller, RFID reader modules, LED indicators, and custom-designed mounting brackets. All electronic components are housed in a durable enclosure that integrates seamlessly with the record shelf.
+        The internal components include an ESP32-C6, RC522 RFID reader module, LED strip, and a custom-designed storage rack. All electronic components are housed inside the record player wich then controlls the LEDs inside the record shelf. 
       </p>
       
       <div class="video-container" style="padding-bottom: 30%; max-width: 500px; margin: 30px auto;">
@@ -173,7 +172,7 @@
 
       <h3>3D Models</h3>
       <p>
-        Below is an interactive 3D model of the record filing system front panel. You can rotate, zoom, and explore the design details.
+        Below is an interactive 3D model of the record filing system's front panel. The channel houses the LEDs and is diffused with wax paper and a heat bent acrylic sprip.
       </p>
       
       <div style="height: 500px; margin: 30px 0;">
@@ -187,7 +186,7 @@
 
   <!-- Footer -->
   <div class="footer">
-    <p>© 2024 PS70: Introduction to Digital Fabrication | Harvard University</p>
+    <p> 2024 PS70: Introduction to Digital Fabrication | Harvard University</p>
   </div>
 
   <!-- Bootstrap JS -->
